@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+    --primary-color: #b1551d;
+    --secondary-color: hsl(262, 15%, 26%);
+    --accent1-color: hsl(227, 37%, 14%);
+    --accent2-color: hsl(24, 53%, 35%);
+    
+    --heading-font: 'Josefin Sans', serif;
+    --paragraph-font: 'Josefin Sans', serif;
+
+    --nav-background-color: hsl(227, 37%, 14%);
+    --nav-link-color: hsl(23, 72%, 40%);
+    --nav-hover-link-color: hsl(24, 53%, 35%);
+    --nav-hover-background-color: hsl(262, 15%, 26%);
+}
+header nav a  {
+    padding: 45px;
+    font: var(--heading-font);
+    color: var(--primary-color);
+}
+header img {
+    width: 200px;
+    height: auto;
+    padding: 2px;
+    
+}
+h1 {
+    font: var(--paragraph-font);
+    color: var(--primary-color);
+    position: absolute;
+    font-size:xx-large;
+    top: 250px; left: 630px;
+    background-color: var(--secondary-color);
+    
+    
+}
+article {
+    background: var(--secondary-color);
+    box-sizing:border-box;
+}
+
+article img {
+    width: 250px;
+    height: 300px;
+    padding: 2px;
+    position: absolute;
+    top: 300px; right: 200px;
+    border-width: 300px;
+}
+article p {
+    position: absolute;
+    top: 625px; left: 400px;
+    color:rgb(255, 115, 0);
+    font:bold;
+    text-shadow: var(--primary-color);
+}
+
+h2 {
+    font: var(--heading-font);
+    font-size: xx-large;
+    color: var(--primary-color);
+}
+section p {
+    display: block;
+    font: var(--paragraph-font);
+    color: var(--accent1-color);
+}
+
+    
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+section img {
+    width:200px;
+    bottom:auto;
+}
