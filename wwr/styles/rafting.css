@@ -17,6 +17,8 @@ header nav a  {
     padding: 45px;
     font: var(--heading-font);
     color: var(--primary-color);
+    border-color: var(--secondary-color);
+    text-decoration-line: none;
 }
 header img {
     width: 200px;
@@ -26,7 +28,7 @@ header img {
 }
 h1 {
     font: var(--paragraph-font);
-    color: var(--primary-color);
+    color:#d850cd;
     position: absolute;
     font-size:xx-large;
     top: 250px; left: 630px;
@@ -34,41 +36,33 @@ h1 {
     
     
 }
-article {
-    background: var(--secondary-color);
-    box-sizing:border-box;
-}
-
 article img {
     width: 250px;
     height: 300px;
     padding: 2px;
     position: absolute;
-    top: 300px; right: 200px;
+    top: 600px; right: 200px;
     border-width: 300px;
+    
 }
 article p {
     position: absolute;
-    top: 625px; left: 400px;
-    color:rgb(255, 115, 0);
+    top: 900px; left: 400px;
+    color:#d850cd;
     font:bold;
-    text-shadow: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 h2 {
     font: var(--heading-font);
     font-size: xx-large;
-    color: var(--primary-color);
+    color: #d850cd;
 }
 section p {
     display: block;
     font: var(--paragraph-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
-
-    
-
-
 .hero img {
     display: block;
     width: 100%;
@@ -76,6 +70,7 @@ section p {
     
 }
 section img {
-    width:200px;
+    width:300px;
     bottom:auto;
+    
 }
