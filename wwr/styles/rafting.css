@@ -13,64 +13,125 @@
     --nav-hover-link-color: hsl(24, 53%, 35%);
     --nav-hover-background-color: hsl(262, 15%, 26%);
 }
+
+
+
+
+header {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+header nav {
+    grid-column: 2/3;
+}
 header nav a  {
-    padding: 45px;
+    padding: 20px;
     font: var(--heading-font);
     color: var(--primary-color);
-    border-color: var(--secondary-color);
     text-decoration-line: none;
+    background-color: var(--secondary-color);
+    border-style: solid;
+    
+    
 }
+ html {
+    background-color: var(--accent1-color);
+ }
 header img {
     width: 200px;
     height: auto;
     padding: 2px;
+    grid-column: 1/2;
+    grid-row: 1/2;   
+     
+}
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+ article {
+    position: absolute;
+    top: 200px; right: 150px;
+    background:#31036e9a;
+    
+    padding: 40px;
     
 }
 h1 {
     font: var(--paragraph-font);
-    color:#d850cd;
-    position: absolute;
+    font-style: bold;
+    color:#d145ca;
+    background:#31036e9a;
     font-size:xx-large;
-    top: 250px; left: 630px;
-    background-color: var(--secondary-color);
-    
-    
+    position: absolute;
+    top:65px; right:350px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 article img {
-    width: 250px;
-    height: 300px;
+    width: 275px;
+    height: auto; 
     padding: 2px;
-    position: absolute;
-    top: 600px; right: 200px;
-    border-width: 300px;
+    float: right;
     
 }
 article p {
-    position: absolute;
-    top: 900px; left: 400px;
-    color:#d850cd;
-    font:bold;
-    background: var(--secondary-color);
+    color:hsl(305, 64%, 58%);
+    font-style: bold;
+    padding: 40px;
+    position: relative;
+    top: 70px;
+    
 }
+
+
+
 
 h2 {
     font: var(--heading-font);
     font-size: xx-large;
     color: #d850cd;
 }
+
 section p {
-    display: block;
     font: var(--paragraph-font);
     color: var(--primary-color);
 }
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    
+section {
+    display: flex;
+    justify-items: center;
+
 }
-section img {
-    width:300px;
-    bottom:auto;
-    
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 125px;
+    margin: auto;
+  }
+
+  figure img {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  
+  figcaption {
+    background-color: var(--secondary-color);
+    color:#b1551d;
+    font: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
+  }
+
+footer {
+    font: var(--paragraph-font);
+    color:#b1551d;
+    border-top: solid;
+    padding-left:375px;
+    padding-bottom:40px;
 }
+  

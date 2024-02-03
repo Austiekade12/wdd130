@@ -41,8 +41,6 @@ nav {
  .grid {
    display: grid;
    align-items: center;
-   /* justify-content: center; */
-   /* justify-items: center; */
  }
 
   main  {
