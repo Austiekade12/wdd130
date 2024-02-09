@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&display=swap');
+
+
+* {
+    margin: 0px auto;
+    
+}
+
+header {
+    border-radius: 1rem;
+    width: 700px;
+    margin: 5px auto;
+    background: rgb(127, 111, 165);
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+
+}
+
+body {
+    font-family: 'Protest Riot', sans-serif;
+     
+}
+
+form {
+    width: 700px;
+    margin: 5px auto;
+    padding: 1rem;
+    border: 1px solid rgb(111, 125, 165);
+    border-radius: 1rem;
+    background-color: rgb(111,125, 165);
+    display: grid;
+}
+fieldset {
+    display: grid;
+    text-align: center;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(111, 125, 165);
+    padding: 1rem;
+    
+}
+
+legend {
+    width: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+    
+}
+
+input {
+    display: flex;
+    margin: 0.5rem auto;
+}
+
+textarea {
+    display: flex;
+    margin: 0.5rem auto;
+}
+
+select {
+    display: flex;
+    margin: 0.5rem auto;
+}
+
+button {
+    margin: 0.5rem auto;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    font-size: 1/2rem;
+    background-color: rgb(6, 8, 12);
+    color: rgb(111, 125, 165);
+}
+
+button:hover {
+    background-color: rgb(113, 5, 255);
+}
+
+footer {
+    margin: 1rem auto;
+    text-align: center;
+    border-top: solid rgb(111, 125, 165);
+    font-size: .8rem;
+}
+
+
