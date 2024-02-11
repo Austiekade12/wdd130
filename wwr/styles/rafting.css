@@ -14,9 +14,86 @@
     --nav-hover-background-color: hsl(262, 15%, 26%);
 }
 
+.info {
+    border: solid;
+    margin: 1rem auto;
+    text-align: center;
+    flex-flow: row;
+    color: var(--primary-color);
+}
 
+iframe {
+    
+}
 
+.map {
+    
+}
 
+.employees {
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    align-content: space-evenly;
+    border: solid var(--primary-color);
+}
+.employees h2 {
+    margin: 0rem auto;
+}
+.employees figure {
+    border: thin var(--primary-color) solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    margin:  auto;
+}
+ .employees figure img {
+    max-width: 350px;
+    max-height: 325px;
+  }
+  .employees figcaption {
+    background-color: var(--secondary-color);
+    color:#b1551d;
+    font: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
+  }
+  form {
+    width: 700px;
+    margin: 5px auto;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    display: grid;
+    color: var(--primary-color);
+    font-size: large;
+    border: solid;
+}
+
+fieldset {
+    display: grid;
+    text-align: center;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+}
+
+input {
+    display: flex;
+    margin: 0.5rem auto;
+}
+
+textarea {
+    display: flex;
+    margin: 0.5rem auto;
+}
+.radio {
+    
+}
+  
 header {
     display: grid;
     align-items: center;
@@ -36,7 +113,7 @@ header nav a  {
     
 }
  html {
-    background-color: var(--accent1-color);
+    background-color:hsla(227, 38%, 14%, 0.842);
  }
 header img {
     width: 200px;
@@ -96,16 +173,16 @@ h2 {
     color: #d850cd;
 }
 
-section p {
+.history p {
     font: var(--paragraph-font);
     color: var(--primary-color);
 }
-section {
+.fig {
     display: flex;
     justify-items: center;
 
 }
-figure {
+.fig figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
@@ -114,12 +191,12 @@ figure {
     margin: auto;
   }
 
-  figure img {
+  .fig figure img {
     max-width: 125px;
     max-height: 125px;
   }
   
-  figcaption {
+  .fig figcaption {
     background-color: var(--secondary-color);
     color:#b1551d;
     font: var(--paragraph-font);
@@ -131,7 +208,11 @@ footer {
     font: var(--paragraph-font);
     color:#b1551d;
     border-top: solid;
-    padding-left:375px;
-    padding-bottom:40px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem;
 }
-  
+  footer nav {
+    float: right;
+    padding: 1rem;
+  }
