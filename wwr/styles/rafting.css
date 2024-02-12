@@ -14,75 +14,9 @@
     --nav-hover-background-color: hsl(262, 15%, 26%);
 }
 
-.info {
-    border: solid;
-    margin: 1rem auto;
-    text-align: center;
-    flex-flow: row;
-    color: var(--primary-color);
-}
 
-.employees {
-    margin: 1rem auto;
-    text-align: center;
-    display: flex;
-    align-content: space-evenly;
-    border: solid var(--primary-color);
-}
-.employees h2 {
-    margin: 0rem auto;
-}
-.employees figure {
-    border: thin var(--primary-color) solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 400px;
-    margin:  auto;
-}
- .employees figure img {
-    max-width: 350px;
-    max-height: 325px;
-  }
-  .employees figcaption {
-    background-color: var(--secondary-color);
-    color:#b1551d;
-    font: var(--paragraph-font);
-    padding: 3px;
-    text-align: center;
-  }
-  form {
-    width: 700px;
-    margin: 5px auto;
-    padding: 1rem;
-    border: 1px solid var(--secondary-color);
-    border-radius: 1rem;
-    background-color: var(--secondary-color);
-    display: grid;
-    color: var(--primary-color);
-    font-size: large;
-    border: solid;
-}
 
-fieldset {
-    display: grid;
-    text-align: center;
-    grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid var(--secondary-color);
-    padding: 1rem;
-}
 
-input {
-    display: flex;
-    margin: 0.5rem auto;
-}
-
-textarea {
-    display: flex;
-    margin: 0.5rem auto;
-}
-  
 header {
     display: grid;
     align-items: center;
@@ -197,11 +131,7 @@ footer {
     font: var(--paragraph-font);
     color:#b1551d;
     border-top: solid;
-    margin: 1rem auto;
-    text-align: center;
-    padding: 1rem;
+    padding-left:375px;
+    padding-bottom:40px;
 }
-  footer nav {
-    float: right;
-    padding: 1rem;
-  }
+  
