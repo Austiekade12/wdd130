@@ -18,7 +18,6 @@
     margin: 1rem auto;
     color:#b1551d;
     border: solid #b1551d;
-    border-radius: auto;
     display: grid;
     justify-content: space-evenly;
     
@@ -51,7 +50,7 @@ figure {
     color:#b1551d;
     font-size: large;
     padding: .5rem;
-    text-align: top;
+    
   }
 
   form {
@@ -96,7 +95,7 @@ button {
     border: solid #b1551d;;
     border-radius: 1rem;
     padding: 1.2rem;
-    font-size: 1/2rem;
+    font-size: 1.2rem;
     background-color: hsl(265, 15%, 16%);
     color: #b1551d;
 }
@@ -123,7 +122,7 @@ header nav a  {
     
 }
  html {
-    background-color:hsl(265, 15%, 16%);
+    background-color:hsl(240, 21%, 11%);
  }
 header img {
     width: 200px;
@@ -149,7 +148,6 @@ header img {
 }
 h1 {
     font: var(--paragraph-font);
-    font-style: bold;
     color:#d145ca;
     background:#31036e9a;
     font-size:xx-large;
@@ -167,7 +165,6 @@ article img {
 }
 article p {
     color:hsl(305, 64%, 58%);
-    font-style: bold;
     padding: 40px;
     position: relative;
     top: 70px;
@@ -222,12 +219,20 @@ footer {
 footer p {
     text-align: center;
 }
+ 
+footer nav {
+    text-align: center;
+}
 
-  footer nav a {
+.wireframe {
+    text-align: center;
+    color:#b1551d;
+}
+.sociallinks {
     padding: 1rem;
     float: right;
   }
 
-  footer img {
+ footer img {
     width: 50px;
-  }
+ }
